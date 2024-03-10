@@ -1,3 +1,6 @@
+import './bootstrap.js';
+import '@symfony/stimulus-bridge';
+
 /*
  * Welcome to your app's main JavaScript file!
  *
@@ -7,3 +10,5 @@
 
 // any CSS you import will output into a single css file (app.css in this case)
 import './styles/app.css';
+
+console.log('Hi! My name is app.js!');
